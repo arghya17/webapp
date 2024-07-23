@@ -15,7 +15,13 @@ export default function AddUser(props) {
 		<div>
 			Add User
 			<form onSubmit={addUser}>
-				<input type="text" name="uname" placeholder="Enter Username"></input>
+				<input
+					type="text"
+					name="uname"
+					placeholder="Enter Username"
+					required
+					minLength={6}
+				></input>
 				<input type="text" name="dept" placeholder="Enter department"></input>
 				<button className="btn btn-primary">Add</button>
 			</form>

@@ -1,10 +1,12 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Mainapp from "./components/Mainapp";
+// import Mainapp from "./components/Mainapp";
+import RestApp from "./components/RestApp";
+
 function App() {
 	return (
 		<div className="App">
-			<Mainapp />
+			<RestApp />
 		</div>
 	);
 }
